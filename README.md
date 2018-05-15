@@ -2,7 +2,7 @@
 This is old website project TinyUI from 2014 to early 2018 this is purely for telling you not to do this because you can't do full cms by yourself in reasonable timeframe and this is also why you should write better and cleaner code, it's very hard to read this old code.
 
 # Usage
-You can't really use this, it's for learning purposes only.
+You can't really use this because database is not there, it's for learning purposes only.
 
 # Screenshots
 
