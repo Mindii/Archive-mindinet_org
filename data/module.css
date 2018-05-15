@@ -1,0 +1,55 @@
+#module_frame_one {
+width: 200px;
+position: relative;
+z-index: 9;
+left: 50px;
+top: 20px;
+color: #000000;
+background: #ffffff;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 30px;
+margin-top: 10px;
+border-bottom-left-radius: 1px;
+border-bottom-right-radius: 1px;
+text-align: center;
+text-indent: 0;
+}
+
+#module_frame_one img{
+	opacity: 0.9;
+}
+
+#module_frame_two {
+width: 300px;
+position: absolute;
+z-index: 99;
+right: 50px;
+top: 20px;
+color: #000000;
+background: #ffffff;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: -50px;
+margin-top: 10px;
+border-bottom-left-radius: 1px;
+border-bottom-right-radius: 1px;
+text-align: center;
+text-indent: 0;
+}
+
+#module_title {
+color: #FF8500;
+font-size: 14px;
+text-indent: 0;
+text-transform: uppercase;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+#module_text {
+font-family: visit;
+text-indent: 0;
+letter-spacing: 0.85px;
+font-size: 10px;
+color: #5E5E5E;
+}

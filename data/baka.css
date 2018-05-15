@@ -1,0 +1,478 @@
+/* fonts */
+@font-face {
+font-family: 'visit';
+src: url('fonts/V1.woff') format('woff'),
+     url('fonts/V1.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'visit2';
+src: url('fonts/V2.woff') format('woff'),
+     url('fonts/V2.ttf') format('truetype');
+}
+
+/* Logo */
+#Logo {
+width: 820px;
+height: 170px;
+margin-left: -410px;
+margin-top: -10px;
+left: 50%;
+position: relative;
+text-transform: uppercase;
+font-family: 'mc.ttf';
+box-shadow: 0px 28px 10px 0px rgba(0, 0, 0, 0.59);
+}
+
+
+/* Scrollbar theme */
+/* This works but didn't look so good yet.
+::-webkit-scrollbar {
+      width: 10px;
+	  height: 10px;
+}
+::-webkit-scrollbar-track {
+      background-color: #FFFFFF;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.60),white,white,white,white,white,white,white,white,rgba(0, 0, 0, 0.20));
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.70);
+}
+ 
+::-webkit-scrollbar-button {
+      background-color: #666666;
+}
+ 
+::-webkit-scrollbar-corner {
+      background-color: white;
+} */
+
+
+
+#News {
+z-index: 3;
+height: 7px;
+right: 1%;
+bottom: 16%;
+position: absolute;
+}
+
+#News img:hover {
+opacity: 0.4;
+}
+
+#Newstext {
+font-size: 2px;
+color: #000000;
+letter-spacing: 2.65px;
+padding-left: 2px;
+padding-right: 2px;
+text-align: center;
+border-radius: 1px;
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 1px rgba(8, 13, 15, 1);
+}
+
+#logotext {
+position: absolute;
+z-index: 9;
+left: 6px;
+top: 28px;
+color: #ff6000;
+font-size: 12px;
+font-family: visit2;
+padding-left: 4px;
+padding-right: 3px;
+padding-bottom: 1px;
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+border-radius: 1px;
+}
+
+#Browser {
+z-index: 999;
+margin-left: -410px;
+left: 50%;
+top: 130px;
+position: absolute;
+background: none repeat scroll 0% 0% rgba(255, 255, 255, 1);
+color: #FF8500;
+font-size: 10px;
+font-family: title;
+padding-left: 3px;
+padding-right: 2px;
+}
+
+#Hideshadow {
+width: 820px;
+z-index: 3;
+height: 37px;
+margin-left: -410px;
+left: 50%;
+top: 161px;
+position: absolute;
+background: #ffffff;
+}
+
+#Linkstream {
+z-index: 9;
+color: #6D6D6D;
+font-family: 'mc.ttf';
+font-size: 8px;
+margin: 3px;
+overflow:hidden;
+}
+
+#Linkframe {
+position:absolute; 
+z-index:1;
+left:5px;
+bottom:1px; 
+width: 810px;
+height: 19px;
+}
+
+/* Content */
+#title {
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.66);
+overflow:hidden;
+z-index:1;
+position:relative;
+text-align:center;
+width:820px;
+left: 50%;
+margin-left:-410px;
+background-color:white;
+margin-bottom:40px;
+padding-bottom:40px;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 2px;
+margin-top: 30px;
+}
+
+#titlescontent {
+position:absolute; 
+z-index:9;
+left:35px;
+top:92px; 
+font-size:12px;
+}
+
+#titlesframe {
+width: 760px;
+position: relative;
+z-index: 9;
+left: 30px;
+top: 20px;
+color: #000000;
+background: #ffffff;
+padding-bottom: 10px;
+margin-bottom: 30px;
+margin-top: 10px;
+box-shadow: 0px 0px 6px #A0A0A0;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 2px;
+}
+
+#titlesframesec {
+width: 760px;
+position: relative;
+z-index: 9;
+left: 30px;
+top: 20px;
+color: #000000;
+background: #ffffff;
+padding-bottom: 10px;
+margin-bottom: 20px;
+margin-top: 10px;
+box-shadow: 0px 0px 6px #A0A0A0;
+border-bottom-left-radius: 1px;
+border-bottom-right-radius: 1px;
+}
+
+#Postimg {
+	margin-left: -5px;
+	margin-top: -25;
+}
+
+#titlestext {
+position: relative;
+z-index: 9;
+color: #535353;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-top: -10px;
+letter-spacing: 0px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 11;
+text-indent: 4px;
+}
+
+#titlestitle {
+position: relative;
+z-index: 9;
+color: #383838;
+font-size: 15px;
+top: -10px;
+font-family: Verdana, Geneva, sans-serif;
+margin-top: 10px;
+text-transform: uppercase;
+font-weight: normal;
+background: #FFF;
+display: inline-block;
+margin-left: -10px;
+padding: 1;
+padding-right: 5;
+box-shadow: 0px 0px 1px #000;
+}
+
+#Changepage {
+font-size: 11px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 10;
+text-shadow: 0px 0px 1px #CFCFCF;
+}
+
+#titlesbottom {
+position: absolute;
+z-index: 9;
+color: #6F6F6F;
+font-size: 12px;
+text-indent: inherit;
+letter-spacing: 1px;
+height: 12px;
+text-align: right;
+bottom: 5px;
+right: 5px;
+font-family: visit2;
+}
+
+#titlespatch {
+position:relative; 
+z-index:9;
+color: #535353;
+font-size:20px;
+left: -70px;
+letter-spacing: 0.5px;
+font-family: visit;
+}
+
+#titlespatchtext {
+position:relative; 
+font-family: visit;
+z-index:9;
+color: #777777;
+margin-left:20px;
+margin-right:20px;
+margin-bottom: 20px;
+margin-top: -10px;
+letter-spacing: 0.85px;
+}
+
+#content {
+font-family: Verdana, Geneva, sans-serif;
+text-indent: 50px;
+text-align: justify;
+font-size: 10px;
+}
+
+#contentfiles {
+font-family: visit;
+text-align:left;
+text-indent: 4px;
+font-size:	10px;
+}
+#contentimages {
+text-indent: 50px;
+text-align:center;
+font-family: visit;
+font-size:	10px;
+}
+
+#tinyguide {
+font-family: title;
+text-align: center;
+color: #555454;
+font-size: 12px;
+text-indent: 0px;
+width: 700px;
+margin-left: 60px;
+letter-spacing: 1px;
+margin-top: -16px;
+}
+
+#tinyguide_Infobox {
+font-family: visit;
+text-indent: 0px;
+text-align: right;
+margin-right: 3px;
+color: #FF7A00;
+font-size: 10px;
+width: 498px;
+height: 40px;
+box-shadow: 0px 3px 3px 0px #505050;
+position: absolute;
+left: 161px;
+margin-top: -61px;
+}
+
+#tinyguide_Genre {
+font-family: visit;
+text-indent: 0px;
+color: #FF7A00;
+font-size: 10px;
+width: 200px;
+height: 24px;
+margin-left: 295px;
+margin-top: 20px;
+letter-spacing: 1px;
+}
+
+#tinyguide_Seep {
+font-family: visit;
+text-indent: 0px;
+text-align: left;
+color: #FF7A00;
+font-size: 10px;
+width: 200px;
+height: 24px;
+margin-left: 4px;
+margin-top: -33px;
+letter-spacing: 1px;
+}
+
+#tinyguidetitle {
+text-align: center;
+color: #FF8500;
+font-size: 24px;
+font-family: title;
+text-indent: 0px;
+width: 700px;
+margin-left: 60px;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding-top: 40px;
+}
+
+#tinyguide_reco {
+text-indent: 0px;
+text-align: left;
+margin-left: 7px;
+margin-bottom: -11px;
+font-size: 10px;
+font-family: visit;
+}
+
+#tinyguide_reco_showtitle {
+font-family: visit;
+text-indent: 0px;
+text-align: right;
+margin-right: 7px;
+color: #FF7A00;
+font-size: 10px;
+}
+
+#tinyguide_reco_title {
+text-indent: 0px;
+text-align: center;
+font-family: visit;
+text-transform: uppercase;
+color: #FF7A00;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.67);
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+#recommend_window {
+width: 270px;
+color: #555555;
+text-indent: 0px;
+text-align: center;
+padding-top: 15px;
+margin-left: 92px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+#recommend_movie {
+position: absolute;
+top: 0px;
+right: 0px;
+width: 270px;
+color: #555555;
+text-indent: 0px;
+text-align: center;
+padding-top: 15px;
+margin-right: 92px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+/* Linkit */
+A:LINK {
+text-decoration:none;
+color:#FF7A00;
+}
+
+A:VISITED {
+text-decoration:none;
+color:#FF7A00;
+}
+
+A:HOVER {
+color:#161616;
+}
+
+#tinyguide_note {
+position: absolute;
+z-index: 9;
+right: 155px;
+color: #302F2F;
+font-size: 10px;
+font-family: visit;
+margin-top: 75px;
+margin-right: 10px;
+padding-right: 4px;
+padding-left: 4px;
+background: #FFFFFF;
+text-indent: 0px;
+box-shadow: 1px 1px 0px #000000;
+}
+
+#administrator_form {
+width: 270px;
+color: #555555;
+text-indent: 0px;
+text-align: center;
+padding-top: 15px;
+margin-left: 140px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+#administrator_tinynote {
+width: 450px;
+margin-left: -90px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#tinycode_tag {
+position: relative;
+font-size: 10px;
+font-family: Verdana, Geneva, sans-serif;
+box-shadow: 0px 0px 3px #5E5E5E;
+padding: 2px;
+padding-left: 2px;
+text-indent: 0;
+margin-left: 20px;
+margin-top: 7px;
+margin-bottom: 5px;
+background: #FFFFFF;
+color: #FF6B00;
+border-radius: 1px;
+display: inline-block;
+}
