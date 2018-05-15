@@ -7,8 +7,8 @@ You can't really use this, it's for learning purposes only.
 # Screenshots
 
 TinyUI 0.17 (08.02.2014)
-![alt tag](https://raw.githubusercontent.com/Mindii/old-mindinet_org/master/screenshot/tinyui_0.17.jpg)
+![alt tag](https://raw.githubusercontent.com/Mindii/old-mindinet_org/master/screenshots/tinyui_0.17.jpg)
 
 TinyUI 0.42 (19.03.2014)
-![alt tag](https://raw.githubusercontent.com/Mindii/old-mindinet_org/master/screenshot/tinyui_0.42.jpg)
+![alt tag](https://raw.githubusercontent.com/Mindii/old-mindinet_org/master/screenshots/tinyui_0.42.jpg)
 
