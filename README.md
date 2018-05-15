@@ -20,3 +20,6 @@ TinyUI 0.58 (30.03.2014)
 
 TinyUI 0.88 (28.05.2014)
 ![alt tag](https://raw.githubusercontent.com/Mindii/old-mindinet_org/master/screenshots/tinyui_0.88.png)
+
+TinyUI 0.93 (10.02.2015)
+![alt tag](https://raw.githubusercontent.com/Mindii/old-mindinet_org/master/screenshots/tinyui_0.93.png)
