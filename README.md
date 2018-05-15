@@ -5,10 +5,10 @@ This is old website project TinyUI from 2014 to early 2018 this is purely for te
 You can't really use this, it's for learning purposes only.
 
 # Screenshots
-​
+
 TinyUI 0.17 (08.02.2014)
 ![alt tag](https://raw.githubusercontent.com/Mindii/old-mindinet_org/master/screenshot/tinyui_0.17.jpg)
-​
+
 TinyUI 0.42 (19.03.2014)
 ![alt tag](https://raw.githubusercontent.com/Mindii/old-mindinet_org/master/screenshot/tinyui_0.42.jpg)
 
